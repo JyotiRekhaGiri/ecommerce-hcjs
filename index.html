@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Ecommerce Diff Section</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>SELECT YOUR CHOICE</h1>
+        </div>
+        <div class="tabs">
+            <button class="tablinks active" onclick="openCategory(event, 'men')"><img src="./image/Vector.png"
+                    alt="vector">Men</button>
+            <button class="tablinks" onclick="openCategory(event, 'women')"><img
+                    src="./image/Vector1.png">Women</button>
+            <button class="tablinks" onclick="openCategory(event, 'kids')"><img src="./image/Vector2.png">Kids</button>
+        </div>
+
+        <div id="men" class="tabcontent"></div>
+        <div id="women" class="tabcontent"></div>
+        <div id="kids" class="tabcontent"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
